@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass source/sass/main.scss assets/css/all.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianopb/ecommerce-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianopb/ecommerce-frontend/issues"
+  },
+  "homepage": "https://github.com/adrianopb/ecommerce-frontend#readme",
+  "dependencies": {
+    "sass": "^1.23.2"
+  }
+}
