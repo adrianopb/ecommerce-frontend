@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "sass source/sass/main.scss assets/css/all.css"
+    "dev": "sass source/sass/main.scss assets/css/all.css --watch"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/adrianopb/ecommerce-frontend#readme",
   "dependencies": {
-    "sass": "^1.23.2"
+    "sass": "^1.23.3"
   }
 }
