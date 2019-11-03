@@ -1,24 +1,35 @@
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    padding: 10px;
+    background-color: $color-blue;
+    color: white;
+    text-align: center;
+    height: $footer-height;
 
     &__section {
         float: left;
 
         &--logo {
-            width: 20%;
-        }
 
-        &--copyright {
-            width: 40%
+            img {
+                max-width: 65%;
+                max-height: 100px;
+            }
         }
 
         &--social-media {
-            width: 20%;
+            i {
+                float: left;
+                font-size: 30px;
+                height: $social-media-height;
+                line-height: $social-media-height;
+            }
         }
 
-        &--contact {
-            width: 20%;
+        &--copyright {
+            line-height: $footer-height;
         }
     }
 }

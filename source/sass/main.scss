@@ -1,3 +1,8 @@
+//Config
+@import "utils/colors";
+@import "utils/variables";
+@import "utils/grid";
+
 //Componentes
 @import "layout/main";
 @import "layout/buttons";
@@ -5,8 +10,6 @@
 @import "layout/product";
 @import "layout/margins";
 
-//Config
-// @import "config/colors";
 
 //Local
 // @import "components/local";
