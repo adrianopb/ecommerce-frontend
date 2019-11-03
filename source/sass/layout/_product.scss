@@ -1,0 +1,49 @@
+.product__main {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid black;
+
+  &__header {
+    text-align: left;
+  }
+
+  &__image {
+    height: 300px;
+    width: 100%;
+    background-color: #ddd;
+  }
+
+  &__footer {
+    overflow: auto;
+
+    &__price {
+      font-size: 2.5em;
+    }
+
+    &__rating {
+      display: inline-block;
+      font-size: 1.5em;
+      margin: 0 1em;
+      vertical-align: text-bottom;
+
+      &__star {
+        color: #b9b2b2;
+
+        &--checked {
+          color: #fde606;
+        }
+      }
+    }
+
+    &__button {
+      border: 1px solid #c1c1c1;
+      background-color: #107dac;
+      color: #fff;
+      float: right;
+
+      &:hover {
+        background-color: #189ad3;
+      }
+    }
+  }
+}

@@ -2,12 +2,42 @@
 <html lang="pt-br">
  <head>
     <link rel="stylesheet" href="../assets/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <script rel="stylesheet" type="text/css" href="../assets/css/all.css"></script> -->
  </head>
  <body>
  <header class="site-header"></header>
- <main class="site-main"></main>
- <aside class="site-aside"></aside>
+ <main class="site__main">
+   <div class="product__main padding-1" itemscope itemtype="http://schema.org/Product">
+     <div class="product__main__header">
+       <h1 itemprop="name">
+         Notebook Acer AC1234 i7 8GB
+       </h1>
+      </div>
+     <div class="product__main__image">
+        <figure>
+          <img src="" alt="imagem notebook" itemprop="image">
+        </figure>
+      </div>
+      <div class="padding-top2 product__main__footer">
+        <span itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+          <label class="product__main__footer__price" itemprop="price">R$ 3450,00</label>
+        </span>
+
+        <div class="product__main__footer__rating" itemprop="starRating" itemscope itemtype="http://schema.org/Rating">
+          <meta itemprop="ratingValue" content="4">
+          <span class="fa fa-star product__main__footer__rating__star--checked"></span>
+          <span class="fa fa-star product__main__footer__rating__star--checked"></span>
+          <span class="fa fa-star product__main__footer__rating__star--checked"></span>
+          <span class="fa fa-star product__main__footer__rating__star--checked"></span>
+          <span class="fa fa-star product__main__footer__rating__star"></span>
+        </div>
+        
+        <input type="button" value="Detalhes" class="product__main__footer__button button">
+      </div>
+   </div>
+ </main>
+ <aside class="site__aside"></aside>
  <footer class="footer">
     <div class="footer__section footer__section--logo">
       <figure>
