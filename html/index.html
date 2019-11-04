@@ -5,7 +5,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  </head>
  <body>
- <header class="site-header"></header>
+ <header class="site-header">
+    <div class="site__navbar">
+      <form class="search" action="search" method="GET" role="search">
+          <input type="text" class="nav-search-input" aria-label="Buscar" name="as_word" placeholder="Buscar...." maxlength="120">
+          <button type="submit" class="search__button">
+            <div role="img" aria-label="Buscar" class="search__button__icon" />
+          </button>
+        </form>
+    </div>
+ </header>
  <main class="site__main">
    <div class="product__main padding-1" itemscope itemtype="http://schema.org/Product">
      <div class="product__main__header">
